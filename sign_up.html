@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="/styles/authentification.css">
+    <title>Reddit - Register</title>
+</head>
+
+<body>
+    <header>
+        <!-- Register form -->
+        <div id="register-form" class="form-container form-login container animate__animated">
+            <h2>Sign Up</h2>
+
+            <form id="contact-form" method="post" class="contact-form">
+                <label class="one-label" for="name">Full Name*</label>
+                <input type="text" name="name" class="form-control" id="name" placeholder="John" required>
+                <label class="one-label" for="email">Email*</label>
+                <input type="email" name="email" class="form-control" id="email" placeholder="example@email.com"
+                    required>
+                <label class="one-label" for="name">Password*</label>
+                <input type="password" name="password" class="form-control psw" id="password" placeholder="⁕⁕⁕⁕⁕⁕⁕⁕⁕⁕⁕"
+                    required>
+                <div class="policy">
+                    <input class="checkbox" type="checkbox" required>
+                    <p>I accept all <a href="#">terms</a> & <a href="#">condition</a></p>
+                </div>
+                <button type="submit" class="btn">Create Account</button>
+            </form>
+            <div class="switch-button-1">
+                <p>Already Signed Up? &nbsp;</p>
+                <button id="login-btn">Login now</button>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
